@@ -136,6 +136,7 @@ margin-bottom: 0;
 color: #003147;
 text-transform: uppercase;
 letter-spacing: 1px;
+
 margin-bottom: 10px;
 }
 
@@ -161,6 +162,25 @@ font-size: 16px;
 text-transform: uppercase;
 }
 
+.skills .box{
+position: relative;
+width: 100%;
+display: grid;
+grid-template-columns: 150px 1fr;
+
+}
+
+.hobby ul{
+display: grid;
+}
+
+.hobby ul li{
+list-style: none;
+color:black;
+
+margin: 10px 0;
+}
+
 @media (max-width:1000px)
 {
 .container{
@@ -168,13 +188,21 @@ margin: 10px;
 grid-template-columns: repeat(1,1fr);
 }
 
+.hobby ul
+{
+    grid-template-columns: repeat(2,1fr)
+}
 }
 
-
-@media (max-width:6000px){
-
-
+@media (max-width:600px)
+{
 .about .box{
-flex-direction: column;
+    flex-direction: column;
 }
+
+.year_company{
+margin-bottom: 8px;
 }
+
+}
+
