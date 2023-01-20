@@ -3,6 +3,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
+ list-style: none;
 
 }
 
@@ -95,7 +96,6 @@ position: relative;
 
 .contactinfo ul li{ 
 position: relative;
-list-style: none;
 margin: 10px 0;
 }
 
@@ -172,7 +172,6 @@ grid-template-columns: 150px 1fr;
 
 .hobby ul{
 display: grid;
-list-style: none;
 }
 
 .hobby ul li{
